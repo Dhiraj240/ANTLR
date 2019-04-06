@@ -28,15 +28,12 @@ Now we need to create the batch files.
 2. Its extension can be ```.bat```, ```.cmd```, ```.btm```.
 3. Now when you call ```antlr4``` on your ```cmd``` or ```powershell```, it will execute the command ```java org.antlr.v4.Tool %*``` without actually making you type the command written inside the ```antlr4.bat``` file.
 4. You simply type your filename here ```antlr4``` it will execute on the command line interpreter with the following outcome.
-
- ![antlr4](/screenshot/1.png)
+![antlr4](/screenshot/1.png)
 
 
 5. You can see ```java org.antlr.v4.Tool``` instead of ```java org.antlr.v4.Tool %*``` in the above screenshot.It is because ```%*``` is used to pass all the arguments because of which you are able to see several extra outcomes of it.
 
-6.Similarly you can check the execution of ```grun``` on ```cmd```.
-
-![grun](/screenshot/2.png)
+6. Similarly you can check the execution of ```grun``` on ```cmd```.![grun](/screenshot/2.png)
 
 #####Note : It is recommended to use Power Shell instead of Windows cmd because it provides administrator privileges which some commands need it.
 
