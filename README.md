@@ -32,5 +32,5 @@ Now we need to create the batch files.
 
 6. Similarly you can check the execution of ```grun``` on ```cmd```.![grun](/screenshot/2.png)
 
-#####Note : It is recommended to use Power Shell instead of Windows cmd because it provides administrator privileges which some commands need it.
+##### Note : It is recommended to use Power Shell instead of Windows cmd because it provides administrator privileges which some commands need it.
 
